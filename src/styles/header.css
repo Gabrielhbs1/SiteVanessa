@@ -1,0 +1,160 @@
+header {
+    background-color: brown;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1vh 2vw;
+    position: relative; 
+    z-index: 10;        
+}
+
+/*Menu*/
+.menu {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.btn-menu {
+    background: none;   
+    border: none;      
+    color: white;          
+    font-size: 6vh;        
+    cursor: pointer;
+    padding: 1.5vh 2vw;
+}
+
+.links-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 12vw;
+    background-color: #f5f5f5;
+    border: 0.2vh solid brown;
+    box-shadow: 0 2vh 3vh rgba(0, 0, 0, 0.111);
+}
+
+.links-menu a {
+    display: block;
+    padding: 2vh;
+    text-decoration: none;
+    color: black;
+}
+
+.links-menu a:hover {
+    background-color: brown;
+    color: white;
+}
+
+.menu:hover .links-menu {
+    display: block;
+}
+
+.menu-txt{
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 30%;
+    background-color: aliceblue;
+    border: 2% solid #c53d3d;
+    z-index: 10;
+}
+
+.menu-txt{
+    color: black;
+    padding: 10vh;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+}
+
+.menu-txt a:hover {
+    background-color: #c53d3d;
+    color: aliceblue;
+}
+
+.menu:hover .menu-txt{
+    display: block;
+}
+
+/*img*/
+.logo {
+    height: 15vh;
+    width: auto;
+    margin-left: 2vw;  
+}
+
+.login {
+    height: 6vh;
+    width: auto;
+}
+
+/*Login*/
+.conta{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20vw;
+    margin-left: auto;    
+    position: relative;
+    display: inline-block;
+}
+
+
+.opcoes-login {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 10vw;
+    background-color: #f5f5f5;
+    border: 0.2vh solid brown;
+    box-shadow: 0 2vh 3vh rgba(0,0,0,0.2);
+}
+
+.opcoes-login a {
+    display: block;
+    padding: 2vh;
+    text-decoration: none;
+    color: black;
+}
+
+.opcoes-login a:hover {
+    background-color: brown;
+    color: white;
+}
+
+.conta:hover .opcoes-login {
+    display: block;
+}
+
+.conta-txt{
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 30%;
+    background-color: aliceblue;
+    border: 2% solid #c53d3d;
+    z-index: 10;
+}
+
+.conta-txt{
+    color: black;
+    padding: 10vh;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+}
+
+.conta-txt a:hover {
+    background-color: #c53d3d;
+    color: aliceblue;
+}
+
+.conta:hover .conta-txt{
+    display: block;
+}
