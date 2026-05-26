@@ -1,6 +1,5 @@
-main {
-  background-color: rgb(241, 240, 237);
-  padding-bottom: 25%;
-  padding-top: 2%;
-  width: 100%;
+main
+{
+  flex: 1;
+  min-height: 60vh;
 }

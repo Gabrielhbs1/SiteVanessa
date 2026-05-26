@@ -1,0 +1,23 @@
+footer {
+  width: 100%;
+  background-color: #8bc47f;
+  padding: 40px;
+}
+.titulo
+{
+  color: white;
+}
+.entre-contato
+{
+  color: white;
+
+}
+p
+{
+  color: white;
+}
+.direitos {
+    margin-top: 25px;
+    font-size: 14px;
+    margin-left: 35%;
+}
