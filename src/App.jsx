@@ -1,16 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Usuarios from "./pages/usuarios";
-import Entrar from "./pages/loginUsuarios";
+import "./components/footer"
+import "./components/header"
 
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Entrar />} />
-        <Route path="/Usuarios" element={<Usuarios />} />
-        <Route path="/loginUsuarios" element={<Entrar />} />
-      </Routes>
-    </BrowserRouter>
+      <Header/>
+
+      
+
   );
 }
