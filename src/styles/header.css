@@ -74,3 +74,12 @@ nav a:hover {
 .btn-contato:hover {
     background-color: #3c630f;
 }
+.btn-contato p {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+.btn-contato a {
+    text-decoration: none;
+    color: white;
+}

@@ -20,4 +20,29 @@ p
     margin-top: 25px;
     font-size: 14px;
     margin-left: 35%;
+    color: white;
+}
+.whatsapp-area {
+    position: absolute;
+    top: 85%;
+    right: 10%;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.whatsapp-area img {
+    width: 40px;
+   
+}
+
+.whatsapp-area p {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+.whatsapp-area a {
+    text-decoration: none;
+    color: white;
 }

@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div className="logo-area">
         <h1>Vanessa de Paula Berbone</h1>
-         <p>Psicóloga Clínica • CRP: 00/00000</p>
+         <p>Psicóloga Clínica • CRP: 06/225624</p>
       </div>
 
       <nav>
@@ -16,7 +16,13 @@ function Header() {
       </nav>
 
       <button className="btn-contato">
-        Entre em contato
+         <a
+          href="https://wa.me/5514997316730"
+          target="_blank"
+          rel="noopener noreferrer">
+            Ente em contato
+        </a>
+        
         
       </button>
     </header>
