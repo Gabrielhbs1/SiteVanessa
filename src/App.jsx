@@ -34,16 +34,35 @@ export default function App() {
           </section>
 
           {/* Sobre */}
-          <section className="about">
-            <h2>Sobre a Profissional</h2>
+         <section className="about">
 
-            <p>
-              Sou psicóloga especializada no acolhimento de adolescentes,
-              adultos e idosos. Meu objetivo é oferecer um espaço seguro,
-              respeitoso e livre de julgamentos para que cada pessoa possa
-              desenvolver autoconhecimento e qualidade de vida.
-            </p>
-          </section>
+<h2>Sobre a Profissional</h2>
+
+<div className="about-container">
+
+<div className="about-text">
+
+<p>
+Sou Vanessa de Paula Berbone...
+</p>
+
+<p>
+Minha missão é acompanhar pessoas...
+</p>
+
+<p>
+Atendo pessoas que...
+</p>
+
+<p>
+Será um prazer caminhar ao seu lado...
+</p>
+
+</div>
+
+</div>
+
+</section>
 
           {/* Especialidades */}
           <section className="services">
@@ -76,6 +95,38 @@ export default function App() {
             </div>
           </section>
 
+          <section className="avaliacoes">
+        <h2> O que nossos clientes dizem</h2>
+
+        <div className="carousel-avaliacoes">
+          <div className="track">
+            <div className="review">
+              <h4>Maria S.</h4>
+              <p>"Hambúrguer delicioso!"</p>
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+            <div className="review">
+              <h4>João P.</h4>
+              <p>"A melhor batata frita."</p>
+              <span>⭐⭐⭐⭐⭐</span>
+            </div> 
+
+            <div className="review">
+              <h4>Ana C.</h4>
+              <p>"Atendimento excelente."</p>
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+
+            <div className="review">
+              <h4>Carlos M.</h4>
+              <p>"Lanche muito bom!"</p>
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
           {/* CTA */}
           <section className="cta">
             <h2>Você não precisa enfrentar tudo sozinho(a)</h2>
@@ -91,7 +142,7 @@ export default function App() {
           </section>
         </main>
 
-        {/* Footer AGORA ESTÁ DENTRO DA DIV APP */}
+        
         <Footer />
       </div>
     </BrowserRouter>

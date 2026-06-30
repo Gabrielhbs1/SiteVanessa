@@ -5,18 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    width: 100%;
-    min-height: 110px;
-    background-color: #8bc47f;
+header{
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display:flex;
 
-    padding: 20px 50px;
+    justify-content:space-between;
 
-    flex-wrap: wrap;
+    align-items:center;
+
+    padding:25px 8%;
+
+    background:#8bc47f;
+
+    gap:30px;
 }
 
 /* LOGO */
@@ -68,7 +69,7 @@ nav a:hover {
     cursor: pointer;
     font-size: 18px;
 
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .btn-contato:hover {
